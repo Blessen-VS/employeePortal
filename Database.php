@@ -19,6 +19,11 @@ class Database
     
     }
 
+    /**
+     * Summary of query
+     * @param mixed $query
+     * @return PDOStatement|bool
+     */
     public function query($query)
     {
         $statement = $this->connection->prepare($query);

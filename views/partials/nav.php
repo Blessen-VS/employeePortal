@@ -12,6 +12,7 @@
               <a href="/" class="<?= urLIs('/')?'bg-gray-900 text white':'text-gray-300' ?>hover:bg-gray-700 rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
               <a href="/about" class="<?= urLIs('/about')?'bg-gray-900 text white':'text-gray-300' ?>hover:bg-gray-700 rounded-md px-3 py-2 text-sm font-medium" aria-current="page">About</a>
               <a href="/notes" class="<?= urLIs('/notes')?'bg-gray-900 text white':'text-gray-300' ?>hover:bg-gray-700  rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Notes</a>
+              <a href="/note" class="<?= urLIs('/notes')?'bg-gray-900 text white':'text-gray-300' ?>hover:bg-gray-700  rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Note</a>
               <a href="/contact" class="<?= urLIs('/contact')?'bg-gray-900 text white':'text-gray-300' ?>hover:bg-gray-700  rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Contact</a>
             
             </div>
