@@ -3,9 +3,9 @@
 $config = require('config.php');
 $db = new Database($config['database']);
 
-$heading = "MY Notes";
+$heading = "Users Listing";
 
-$notes = $db->query("select * from notes where user_id = 1")->fetchAll();
+$userList = $db->query("select * from users")->fetchAll();
 
 
 require("views/notes.view.php");
